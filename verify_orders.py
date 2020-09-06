@@ -1,6 +1,6 @@
 def verify_orders(register1, register2, served_orders):
 	
-  # returns False if one or more placed orders was never completed, or one or more junk orders was completed
+  # returns False if there are any excess completed orders or missing orders
 	if len(served_orders) != len(register1) + len(register2):
 		return False
 	
