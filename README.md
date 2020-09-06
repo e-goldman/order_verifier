@@ -12,7 +12,7 @@ whether or not a day's orders were done correctly.
 It is also possible that orders are being missed altogether, or that the kitchen is completing orders that do not exist. 
 The function should account for these cases by also treating them as failure.
 
-It should return True if all purchases were accounted for and completed in the correct order. All other outcomes return False.
+It should return True only if all purchases were accounted for and completed in the correct order.
 
 The function must complete in O(n) time and require only O(1) additional space.
 
