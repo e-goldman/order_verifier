@@ -6,10 +6,11 @@ Source: Interview Cake
 Premise:
 
 A cafe is concerned that their customers are not correctly being served on a first-come, first-served basis. Write a function
-that verifies this based on daily records of orders placed and orders completed. 
+that verifies this based on daily records of orders placed and orders completed. It should return boolean T/F to indicate
+whether or not a day's orders were done correctly.
 
 It is also possible that orders are being missed altogether, or that the kitchen is completing orders that do not exist. 
-The function should account for these cases.
+The function should account for these cases by also treating them as failure.
 
 It should return True if all purchases were accounted for and completed in the correct order. All other outcomes return False.
 
